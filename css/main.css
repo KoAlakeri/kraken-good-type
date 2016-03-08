@@ -12,11 +12,14 @@ html {
 
 body {
   display: inline-block;
+  margin: 0;
 }
 
 header {
   color: #fff;
   background-color: #259f95;
+  margin: 0;
+  padding: 1.5em;
   border-radius: 0 0 .5em .5em;
 }
 
@@ -36,6 +39,7 @@ header + p::first-line {
 
 article {
   max-width: 47em;
+  margin: 0 auto;
   text-align: left;
 }
 
@@ -49,5 +53,11 @@ footer {
   font-style: italic;
   color: #fff;
   background-color: #259f95;
+  padding: 1.5em;
+  margin: 0;
   border-radius: .5em .5em 0 0;
+}
+
+.colon {
+  display: none;
 }
